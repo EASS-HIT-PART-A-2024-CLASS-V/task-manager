@@ -27,11 +27,11 @@ The Tasks Manager App is a task management system developed using FastAPI for th
 
 1. Clone this repository to your local machine:
 ```
-git clone (https://github.com/SaraBadalbaev/task-manager-final.git)
+git clone https://github.com/EASS-HIT-PART-A-2024-CLASS-V/task-manager.git
 ```
 2. Navigate to the project directory:
 ```
-cd task-manager-final_2
+cd task-manager
 ```
 3. Navigate to the frontend directory:
 ```
@@ -57,6 +57,14 @@ docker-compose up
 ```
 The backend of the application is now running at: http://localhost:8000
 The frontend of the application is now running at: http://localhost:3000
+
+## Tests
+
+Running the tests:
+```
+cd backend
+pytest -p no:warnings tests.py
+```
 
 ## Video
 
